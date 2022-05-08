@@ -4,7 +4,7 @@
 from telegram import *
 from telegram.ext import *
 from datetime import datetime
-from buscar_pelis_IMDB import buscar_imdb
+from buscar_pelis_IMDB import busca_imdb
 
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
