@@ -9,7 +9,7 @@ from buscar_pelis_IMDB import buscar_imdb
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
-## Añade tu token
+## Añade tu token de Telegram aquí
 TOKEN = ''
 
 updater = Updater(TOKEN)
